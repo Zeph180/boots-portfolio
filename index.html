@@ -8,6 +8,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <link rel="stylesheet" href="style.css">
 
     <script
       src="https://kit.fontawesome.com/4905cce8d8.js"
@@ -28,26 +29,29 @@
       <!-- place navbar here -->
       <nav class="navbar navbar-expand-sm bg-light">
         <div class="container-fluid">
+          <li class="nav-item text-primary">
+            <a class="nav-link" href="#">Kigozi Joseph</a>
+          </li>
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link 1</a>
+            <li class="nav-item text-primary">
+              <a class="nav-link" href="#">Portfolio</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link 2</a>
+            <li class="nav-item text-primary">
+              <a class="nav-link" href="#">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link 3</a>
+            <li class="nav-item text-primary">
+              <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
     <main>
-      <section class="container">
-        <div>
+      <section class="container d-flex align-items-center justify-content-center catch-text">
+        <div class="col-10">
           <h2 id="catch-text-heading">
             I'm Kigozi<br />
-            glad to see <br/ class="sec-br"> you!
+            glad to see <br class="d-none"/> you!
           </h2>
           <p class="about">
             I’m a software developer! I can help you build a product , feature
@@ -56,7 +60,7 @@
             contact me.
           </p>
           <div class="">
-            <h3 class="">LET'S CONNECT</h3>
+            <h5 class="text-primary">LET'S CONNECT</h5>
             <ul class="p-0">
               <li class="d-inline p-2">
                 <a href="https://twitter.com/richards_zeph" ref="noreferrer">
@@ -308,15 +312,16 @@
             <form action="https://formspree.io/f/mjvznweg" method="post">
               <label class="d-none" for="user-name">Name</label>
               <input
+                class="form-control mb-3"
                 name="user-name"
                 type="text"
                 placeholder="Please enter your name"
                 maxlength="30"
                 required
               />
-              <label class="d-none" for="emain">Email</label>
+              <label class="d-none" for="email">Email</label>
               <input
-              class="form-control"
+                class="form-control mb-3"
                 name="user-email"
                 type="email"
                 placeholder="johndoe@gmail.com"
@@ -324,7 +329,7 @@
               />
               <label class="d-none" for="user-msg">Your message</label>
               <textarea
-                class="form-control"
+                class="form-control mb-3"
                 name="user-msg"
                 id="user-msg"
                 cols="30"
