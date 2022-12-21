@@ -9,3 +9,7 @@
 .project-card {
     height: 500px;
 }
+
+.contact-form {
+    border-top-left-radius: 100px;
+}
