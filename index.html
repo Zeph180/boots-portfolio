@@ -132,7 +132,7 @@
               </div>
             </div>
 
-            <div class="card d-flex flex-row p-2 mb-4" style="width: 100%">
+            <div class="card d-flex flex-row-reverse p-2 mb-4" style="width: 100%">
               <img
                 class="card-img-left"
                 style="width: 60%"
@@ -190,7 +190,7 @@
               </div>
             </div>
 
-            <div class="card d-flex flex-row p-2 mb-4" style="width: 100%">
+            <div class="card d-flex flex-row-reverse p-2 mb-4" style="width: 100%">
               <img
                 class="card-img-left"
                 style="width: 60%"
@@ -280,16 +280,16 @@
             <h4>Languages</h4>
             <i class="fa fa-angle-down fa-md arrow"></i>
           </div>
-          <ul class="d-flex flex-row list-unstyled mt-4">
-            <li>
+          <ul class="list-unstyled mt-4 list-inline">
+            <li class="list-inline-item">
               <img src="./assets/jsLogo.png" alt="JavaScript logs" />
               <p>JavaScript</p>
             </li>
-            <li class="ml-3">
+            <li class="list-inline-item">
               <img src="./assets/htmlLogo.png" alt="html logo" />
               <p>HTML</p>
             </li>
-            <li class="ml-3">
+            <li class="list-inline-item">
               <img src="./assets/cssLogo.png" alt="css logo" />
               <p><CSS/p>CSS</p>
             </li>
@@ -307,49 +307,54 @@
         </div>
       </section>
 
-      <section class="container">
-        <div class="row justify-content-center">
-          <div class="col-6 text-center">
-            <h3>Contact me</h3>
-            <p>
-              If you have an application you are interested in developing, a
-              feature that you need built or a project that needs coding. I’d
-              love to help with it
-            </p>
-            <form action="https://formspree.io/f/mjvznweg" method="post">
-              <label class="d-none" for="user-name">Name</label>
-              <input
-                class="form-control mb-3"
-                name="user-name"
-                type="text"
-                placeholder="Please enter your name"
-                maxlength="30"
-                required
-              />
-              <label class="d-none" for="email">Email</label>
-              <input
-                class="form-control mb-3"
-                name="user-email"
-                type="email"
-                placeholder="johndoe@gmail.com"
-                required
-              />
-              <label class="d-none" for="user-msg">Your message</label>
-              <textarea
-                class="form-control mb-3"
-                name="user-msg"
-                id="user-msg"
-                cols="30"
-                rows="10"
-                maxlength="500"
-                placeholder="write your message here"
-                required
-              ></textarea>
-              <button type="submit" class="btn">Get in Touch</button>
-            </form>
+      <section class="bg-light">
+        <div class="container-fluid bg-primary contact-form">
+          <div class="row justify-content-center">
+            <div class="col-6 text-center">
+              <h3>Contact me</h3>
+              <p>
+                If you have an application you are interested in developing, a
+                feature that you need built or a project that needs coding. I’d
+                love to help with it
+              </p>
+              <form action="https://formspree.io/f/mjvznweg" method="post">
+                <label class="d-none" for="user-name">Name</label>
+                <input
+                  class="form-control mb-3"
+                  name="user-name"
+                  type="text"
+                  placeholder="Please enter your name"
+                  maxlength="30"
+                  required
+                />
+                <label class="d-none" for="email">Email</label>
+                <input
+                  class="form-control mb-3"
+                  name="user-email"
+                  type="email"
+                  placeholder="johndoe@gmail.com"
+                  required
+                />
+                <label class="d-none" for="user-msg">Your message</label>
+                <textarea
+                  class="form-control mb-3"
+                  name="user-msg"
+                  id="user-msg"
+                  cols="30"
+                  rows="10"
+                  maxlength="500"
+                  placeholder="write your message here"
+                  required
+                ></textarea>
+                <button type="submit" class="btn btn-outline-light">
+                  Get in Touch
+                </button>
+              </form>
+            </div>
           </div>
         </div>
       </section>
+      
     </main>
     <footer>
       <!-- place footer here -->
