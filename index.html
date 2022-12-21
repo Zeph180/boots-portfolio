@@ -8,7 +8,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <script
       src="https://kit.fontawesome.com/4905cce8d8.js"
@@ -46,12 +46,15 @@
         </div>
       </nav>
     </header>
-    <main>
-      <section class="container d-flex align-items-center justify-content-center catch-text">
-        <div class="col-10">
+    <main class="bg-secondary">
+      <section
+        class="container-fluid d-flex bg-light mb-5 align-items-center justify-content-center catch-text"
+      >
+        <div class="col-8">
           <h2 id="catch-text-heading">
             I'm Kigozi<br />
-            glad to see <br class="d-none"/> you!
+            glad to see <br class="d-none" />
+            you!
           </h2>
           <p class="about">
             I’m a software developer! I can help you build a product , feature
@@ -64,7 +67,7 @@
             <ul class="p-0">
               <li class="d-inline p-2">
                 <a href="https://twitter.com/richards_zeph" ref="noreferrer">
-                  <i class="fa fa-twitter"></i>
+                  <i class="fa fa-twitter text-secondary"></i>
                 </a>
               </li>
               <li class="d-inline p-2">
@@ -72,17 +75,17 @@
                   href="https://www.linkedin.com/in/kigozi-joseph-suubi-19073a198/"
                   ref="noreferrer"
                 >
-                  <i class="fa fa-linkedin"></i>
+                  <i class="fa fa-linkedin text-secondary"></i>
                 </a>
               </li>
               <li class="d-inline p-2">
                 <a href="https://medium.com/@zephrichards1" ref="noreferrer">
-                  <i class="fa fa-medium"></i>
+                  <i class="fa fa-medium text-secondary"></i>
                 </a>
               </li>
               <li class="d-inline p-2">
                 <a href="https://github.com/Zeph180" ref="noreferrer">
-                  <i class="fa fa-github"></i>
+                  <i class="fa fa-github text-secondary"></i>
                 </a>
               </li>
               <li class="d-inline p-2">
@@ -90,127 +93,131 @@
                   href="https://venture.angellist.com/v/begin"
                   ref="noreferrer"
                 >
-                  <i class="fa fa-angellist"></i>
+                  <i class="fa fa-angellist text-secondary"></i>
                 </a>
               </li>
             </ul>
           </div>
         </div>
       </section>
-      <section class="justify-content-center">
-        <div class="card d-flex flex-row p-2 mb-4" style="width: 80%">
-          <img
-            class="card-img-left"
-            style="width: 60%"
-            src="./assets/firstPjct.png"
-            alt="Project Tonic screenshot"
-          />
-          <div class="card-body">
-            <h4 class="card-title">Tonic</h4>
-            <div>
-              <p class="d-inline">CANOPY</p>
-              <p class="d-inline">&#8226; Backend Dev</p>
-              <p class="d-inline">&#8226; 2015</p>
+      <section class="container-fluid bg-light">
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <div class="card project-card d-flex flex-row p-2 mb-4" style="width: 100%">
+              <img
+                class="card-img-left"
+                style="width: 60%"
+                src="./assets/firstPjct.png"
+                alt="Project Tonic screenshot"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Tonic</h4>
+                <div>
+                  <p class="d-inline">CANOPY</p>
+                  <p class="d-inline">&#8226; Backend Dev</p>
+                  <p class="d-inline">&#8226; 2015</p>
+                </div>
+                <p class="card-text">
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required.
+                </p>
+                <ul class="list-unstyled d-flex flex-row">
+                  <li class="btn btn-primary">html</li>
+                  <li class="mt-6 btn btn-primary">css</li>
+                  <li class="ml-2 btn btn-primary">javascript</li>
+                </ul>
+                <button type="button" class="btn btn-outline-primary">
+                  See Project
+                </button>
+              </div>
             </div>
-            <p class="card-text">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-            <ul class="list-unstyled d-flex flex-row">
-              <li class="btn btn-primary">html</li>
-              <li class="mt-6 btn btn-primary">css</li>
-              <li class="ml-2 btn btn-primary">javascript</li>
-            </ul>
-            <button type="button" class="btn btn-outline-primary">
-              See Project
-            </button>
-          </div>
-        </div>
 
-        <div class="card d-flex flex-row p-2 mb-4" style="width: 80%">
-          <img
-            class="card-img-left"
-            style="width: 60%"
-            src="./assets/firstPjct.png"
-            alt="Project Tonic screenshot"
-          />
-          <div class="card-body">
-            <h4 class="card-title">Tonic</h4>
-            <div>
-              <p class="d-inline">CANOPY</p>
-              <p class="d-inline">&#8226; Backend Dev</p>
-              <p class="d-inline">&#8226; 2015</p>
+            <div class="card d-flex flex-row p-2 mb-4" style="width: 100%">
+              <img
+                class="card-img-left"
+                style="width: 60%"
+                src="./assets/firstPjct.png"
+                alt="Project Tonic screenshot"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Tonic</h4>
+                <div>
+                  <p class="d-inline">CANOPY</p>
+                  <p class="d-inline">&#8226; Backend Dev</p>
+                  <p class="d-inline">&#8226; 2015</p>
+                </div>
+                <p class="card-text">
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required.
+                </p>
+                <ul class="list-unstyled d-flex flex-row">
+                  <li class="btn btn-primary">html</li>
+                  <li class="mt-6 btn btn-primary">css</li>
+                  <li class="ml-2 btn btn-primary">javascript</li>
+                </ul>
+                <button type="button" class="btn btn-outline-primary">
+                  See Project
+                </button>
+              </div>
             </div>
-            <p class="card-text">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-            <ul class="list-unstyled d-flex flex-row">
-              <li class="btn btn-primary">html</li>
-              <li class="mt-6 btn btn-primary">css</li>
-              <li class="ml-2 btn btn-primary">javascript</li>
-            </ul>
-            <button type="button" class="btn btn-outline-primary">
-              See Project
-            </button>
-          </div>
-        </div>
 
-        <div class="card d-flex flex-row p-2 mb-4" style="width: 80%">
-          <img
-            class="card-img-left"
-            style="width: 60%"
-            src="./assets/firstPjct.png"
-            alt="Project Tonic screenshot"
-          />
-          <div class="card-body">
-            <h4 class="card-title">Tonic</h4>
-            <div>
-              <p class="d-inline">CANOPY</p>
-              <p class="d-inline">&#8226; Backend Dev</p>
-              <p class="d-inline">&#8226; 2015</p>
+            <div class="card d-flex flex-row p-2 mb-4" style="width: 100%">
+              <img
+                class="card-img-left"
+                style="width: 60%"
+                src="./assets/firstPjct.png"
+                alt="Project Tonic screenshot"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Tonic</h4>
+                <div>
+                  <p class="d-inline">CANOPY</p>
+                  <p class="d-inline">&#8226; Backend Dev</p>
+                  <p class="d-inline">&#8226; 2015</p>
+                </div>
+                <p class="card-text">
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required.
+                </p>
+                <ul class="list-unstyled d-flex flex-row">
+                  <li class="btn btn-primary">html</li>
+                  <li class="mt-6 btn btn-primary">css</li>
+                  <li class="ml-2 btn btn-primary">javascript</li>
+                </ul>
+                <button type="button" class="btn btn-outline-primary">
+                  See Project
+                </button>
+              </div>
             </div>
-            <p class="card-text">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-            <ul class="list-unstyled d-flex flex-row">
-              <li class="btn btn-primary">html</li>
-              <li class="mt-6 btn btn-primary">css</li>
-              <li class="ml-2 btn btn-primary">javascript</li>
-            </ul>
-            <button type="button" class="btn btn-outline-primary">
-              See Project
-            </button>
-          </div>
-        </div>
 
-        <div class="card d-flex flex-row p-2 mb-4" style="width: 80%">
-          <img
-            class="card-img-left"
-            style="width: 60%"
-            src="./assets/firstPjct.png"
-            alt="Project Tonic screenshot"
-          />
-          <div class="card-body">
-            <h4 class="card-title">Tonic</h4>
-            <div>
-              <p class="d-inline">CANOPY</p>
-              <p class="d-inline">&#8226; Backend Dev</p>
-              <p class="d-inline">&#8226; 2015</p>
+            <div class="card d-flex flex-row p-2 mb-4" style="width: 100%">
+              <img
+                class="card-img-left"
+                style="width: 60%"
+                src="./assets/firstPjct.png"
+                alt="Project Tonic screenshot"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Tonic</h4>
+                <div>
+                  <p class="d-inline">CANOPY</p>
+                  <p class="d-inline">&#8226; Backend Dev</p>
+                  <p class="d-inline">&#8226; 2015</p>
+                </div>
+                <p class="card-text">
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required.
+                </p>
+                <ul class="list-unstyled d-flex flex-row">
+                  <li class="btn btn-primary">html</li>
+                  <li class="mt-6 btn btn-primary">css</li>
+                  <li class="ml-2 btn btn-primary">javascript</li>
+                </ul>
+                <button type="button" class="btn btn-outline-primary">
+                  See Project
+                </button>
+              </div>
             </div>
-            <p class="card-text">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-            <ul class="list-unstyled d-flex flex-row">
-              <li class="btn btn-primary">html</li>
-              <li class="mt-6 btn btn-primary">css</li>
-              <li class="ml-2 btn btn-primary">javascript</li>
-            </ul>
-            <button type="button" class="btn btn-outline-primary">
-              See Project
-            </button>
           </div>
         </div>
       </section>

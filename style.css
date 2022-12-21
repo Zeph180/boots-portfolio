@@ -1,4 +1,11 @@
 .catch-text {
     background-image: url(./assets/desktopHeaderBg.svg);
     background-repeat: no-repeat;
+    background-size: contain;
+    height: 650px;
+    border-bottom-left-radius: 100px;
+}
+
+.project-card {
+    height: 500px;
 }
