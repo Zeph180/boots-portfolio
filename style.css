@@ -12,4 +12,8 @@
 
 .contact-form {
     border-top-left-radius: 100px;
+    background-image: url(./assets//DesktopContactFormBg.svg);
+    background-size: contain;
+    height: 650px;
+    padding-top: 50px;
 }
